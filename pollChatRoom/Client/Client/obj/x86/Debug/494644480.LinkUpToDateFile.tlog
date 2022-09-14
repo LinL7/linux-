@@ -1,0 +1,1 @@
+g++ -o "/home/ttx/projects/Client/bin/x86/Debug/Client.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,noexecstack /home/ttx/projects/Client/obj/x86/Debug/main.o

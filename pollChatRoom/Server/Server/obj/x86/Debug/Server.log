@@ -1,0 +1,19 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.182.135”
+  正在验证体系结构
+  正在验证体系结构
+D:\linq\VS2019\IDE\MSBuild\Microsoft\VC\v160\Application Type\Linux\1.0\Linux.targets(202,5): warning : 当前项目体系结构“x86”不兼容远程系统体系结构“x64”(“x64”)。请在 Configuration Manager 中将项目体系结构切换为“x64”。如果正在交叉编译，可以忽略此警告。
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+F:\project\book_linuxSerPro\pollChatRoom\Server\Server\main.cpp(49,34): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+F:\project\book_linuxSerPro\pollChatRoom\Server\Server\main.cpp(49,34): warning :      address.sin_port = htons(port);
+F:\project\book_linuxSerPro\pollChatRoom\Server\Server\main.cpp(49,34): warning :                                   ^
+F:\project\book_linuxSerPro\pollChatRoom\Server\Server\main.cpp(138,27): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\project\book_linuxSerPro\pollChatRoom\Server\Server\main.cpp(138,27): warning :                  ret = recv(connfd, users[connfd].buf, BUFFER_SIZE - 1, 0);
+F:\project\book_linuxSerPro\pollChatRoom\Server\Server\main.cpp(138,27): warning :                        ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\project\book_linuxSerPro\pollChatRoom\Server\Server\main.cpp(173,27): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\project\book_linuxSerPro\pollChatRoom\Server\Server\main.cpp(173,27): warning :                  ret = send(connfd, users[connfd].write_buf, strlen(users[connfd].write_buf), 0);
+F:\project\book_linuxSerPro\pollChatRoom\Server\Server\main.cpp(173,27): warning :                        ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  正在链接对象
+  Server.vcxproj -> F:\project\book_linuxSerPro\pollChatRoom\Server\Server\bin\x86\Debug\Server.out

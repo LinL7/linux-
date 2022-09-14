@@ -1,0 +1,78 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.182.135”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(19,5): warning : this ‘if’ clause does not guard... [-Wmisleading-indentation]
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(19,5): warning :      if (argc <= 2)
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(19,5): warning :      ^~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(22,9): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(22,9): message :          return 1;
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(22,9): message :          ^~~~~~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(24,22): error : ‘argv’ was not declared in this scope
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(24,22): error :      const char* ip = argv[1];
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(24,22): error :                       ^~~~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(25,21): error : ‘argv’ was not declared in this scope
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(25,21): error :      int port = atoi(argv[2]);
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(25,21): error :                      ^~~~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(28,10): error : expected constructor, destructor, or type conversion before ‘(’ token
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(28,10): error :      bzero(&server_address, sizeof(server_address));
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(28,10): error :           ^
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(29,5): error : ‘server_address’ does not name a type
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(29,5): error :      server_address.sin_family = AF_INET;
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(29,5): error :      ^~~~~~~~~~~~~~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(30,14): error : expected constructor, destructor, or type conversion before ‘(’ token
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(30,14): error :      inet_pton(AF_INET, ip, &server_address.sin_addr);
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(30,14): error :               ^
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(31,5): error : ‘server_address’ does not name a type
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(31,5): error :      server_address.sin_port = htons(port);
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(31,5): error :      ^~~~~~~~~~~~~~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(34,11): error : expected constructor, destructor, or type conversion before ‘(’ token
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(34,11): error :      printf("%d\n", socket);
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(34,11): error :            ^
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(35,5): error : expected unqualified-id before ‘static_cast’
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(35,5): error :      assert(socket >= 0);
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(35,5): error :      ^
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(35,5): error : expected ‘)’ before ‘static_cast’
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(36,5): error : expected unqualified-id before ‘if’
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(36,5): error :      if (connect(sockfd, (struct sockaddr*)&server_address, sizeof(server_address)) < 0)
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(36,5): error :      ^~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(44,5): error : ‘fds’ does not name a type
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(44,5): error :      fds[0].fd = 0;      //标准输入
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(44,5): error :      ^~~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(45,5): error : ‘fds’ does not name a type
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(45,5): error :      fds[0].events = POLLIN;         //读事件
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(45,5): error :      ^~~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(46,5): error : ‘fds’ does not name a type
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(46,5): error :      fds[0].revents = 0;
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(46,5): error :      ^~~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(47,5): error : ‘fds’ does not name a type
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(47,5): error :      fds[1].fd = sockfd;
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(47,5): error :      ^~~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(48,5): error : ‘fds’ does not name a type
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(48,5): error :      fds[1].events = POLLIN | POLLRDHUP;
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(48,5): error :      ^~~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(49,5): error : ‘fds’ does not name a type
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(49,5): error :      fds[1].revents = 0;
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(49,5): error :      ^~~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(53,11): error : expected constructor, destructor, or type conversion before ‘(’ token
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(53,11): error :      printf("%d\n", ret);
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(53,11): error :            ^
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(54,5): error : expected unqualified-id before ‘static_cast’
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(54,5): error :      assert(ret != -1);
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(54,5): error :      ^
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(54,5): error : expected ‘)’ before ‘static_cast’
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(56,5): error : expected unqualified-id before ‘while’
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(56,5): error :      while (1)
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(56,5): error :      ^~~~~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(83,10): error : expected constructor, destructor, or type conversion before ‘(’ token
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(83,10): error :      close(sockfd);
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(83,10): error :           ^
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(84,5): error : expected unqualified-id before ‘return’
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(84,5): error :      return 0;
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(84,5): error :      ^~~~~~
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(85,1): error : expected declaration before ‘}’ token
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(85,1): error :  }
+F:\project\book_linuxSerPro\pollChatRoom\Client\Client\main.cpp(85,1): error :  ^
