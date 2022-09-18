@@ -1,0 +1,17 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.182.135”
+  正在验证体系结构
+  正在验证体系结构
+D:\linq\VS2019\IDE\MSBuild\Microsoft\VC\v160\Application Type\Linux\1.0\Linux.targets(202,5): warning : 当前项目体系结构“x86”不兼容远程系统体系结构“x64”(“x64”)。请在 Configuration Manager 中将项目体系结构切换为“x64”。如果正在交叉编译，可以忽略此警告。
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\main.cpp(2,10): error : sys\types.h: No such file or directory
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\main.cpp(2,10): error :  #include <sys\types.h>
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\main.cpp(2,10): error :           ^~~~~~~~~~~~~
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\main.cpp(2,10): error : compilation terminated.
+  processpool.cpp
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(5,10): error : sys\types.h: No such file or directory
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(5,10): error :  #include <sys\types.h>
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(5,10): error :           ^~~~~~~~~~~~~
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(5,10): error : compilation terminated.

@@ -1,0 +1,1 @@
+g++ -o "/home/ttx/projects/ServeProPool/bin/x64/Debug/ServeProPool.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/ttx/projects/ServeProPool/obj/x64/Debug/main.o

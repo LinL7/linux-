@@ -1,0 +1,37 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.182.135”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\main.cpp(45,23): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\main.cpp(45,23): warning :              ret = recv(m_sockfd, m_buf + idx, BUFFER_SIZE - 1 - idx, 0);
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\main.cpp(45,23): warning :                    ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\main.cpp(134,34): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\main.cpp(134,34): warning :      address.sin_port = htons(port);
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\main.cpp(134,34): warning :                                   ^
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(74,6): warning : ‘processpool<cgi_conn>::m_listenfd’ will be initialized after [-Wreorder]
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(74,6): warning :   int m_listenfd;
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(74,6): warning :       ^~~~~~~~~~
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(68,6): warning : ‘int processpool<cgi_conn>::m_process_number’ [-Wreorder]
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(68,6): warning :   int m_process_number;
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(68,6): warning :       ^~~~~~~~~~~~~~~~
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(137,1): warning : when initialized here [-Wreorder]
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(228,15): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(228,15): warning :      ret = recv(sockfd, (char*)&client, sizeof(client), 0);
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(228,15): warning :            ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(254,15): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(254,15): warning :      ret = recv(sig_pipefd[0], signals, sizeof(signals), 0);
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(254,15): warning :            ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(252,9): warning : unused variable ‘sig’ [-Wunused-variable]
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(252,9): warning :      int sig;
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(252,9): warning :          ^~~
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(361,15): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(361,15): warning :      ret = recv(sig_pipefd[0], signals, sizeof(signals), 0);
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(361,15): warning :            ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(359,9): warning : unused variable ‘sig’ [-Wunused-variable]
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(359,9): warning :      int sig;
+F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\processpool.h(359,9): warning :          ^~~
+  正在链接对象
+  ServeProPool.vcxproj -> F:\project\book_linuxSerPro\semiSynProcessPool\ServeProPool\ServeProPool\bin\x64\Debug\ServeProPool.out

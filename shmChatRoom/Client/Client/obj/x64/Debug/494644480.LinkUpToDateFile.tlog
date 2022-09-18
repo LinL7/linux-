@@ -1,0 +1,1 @@
+g++ -o "/home/ttx/projects/Client/bin/x64/Debug/ShmClient.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/ttx/projects/Client/obj/x64/Debug/main.o

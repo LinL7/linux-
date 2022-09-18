@@ -17,7 +17,7 @@
 int main(int argc, char* argv[])
 {
     if (argc <= 2)
-    
+    {
         printf("没有设定IP port\n");
         return 1;
     }
